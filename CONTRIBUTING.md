@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in KSA Repository Health.
+Thank you for your interest in Vettmark.
 
 ## Current stage
 
@@ -29,7 +29,7 @@ Before beginning substantial work, open a focused issue and wait for confirmatio
 
 ## Development setup
 
-KSA Repository Health has no production dependencies. Node.js 22 or later is required. Playwright is a development-only dependency used for browser compatibility testing.
+Vettmark has no production dependencies. Node.js 22 or later is required. Playwright is a development-only dependency used for browser compatibility testing.
 
 ```text
 npm run dev
@@ -40,7 +40,7 @@ npm run build
 npm run screenshots
 ```
 
-The development server listens on `127.0.0.1` and uses port `4173` by default. Set `KSA_REPOSITORY_HEALTH_PORT` when a different local port is required.
+The development server listens on `127.0.0.1` and uses port `4173` by default. Set `VETTMARK_PORT` when a different local port is required.
 
 ## Conduct
 

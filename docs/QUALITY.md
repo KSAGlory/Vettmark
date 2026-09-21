@@ -1,6 +1,6 @@
 # Quality Review
 
-KSA Repository Health is tested as a static, read-only browser application. The quality checks cover the complete repository-review workflow and the failure states that users can encounter.
+Vettmark is tested as a static, read-only browser application. The quality checks cover the complete repository-review workflow and the failure states that users can encounter.
 
 ## Automated validation
 
@@ -8,7 +8,7 @@ KSA Repository Health is tested as a static, read-only browser application. The 
 - 37 unit and integration tests for input handling, GitHub API behavior, scoring, incomplete reports, timeouts, cancellation, and rate limits
 - Production build validation
 - Dependency audit with no known vulnerabilities
-- Cross-browser workflow tests in Chromium, Firefox, and WebKit on GitHub Actions
+- End-to-end workflow tests in Google Chrome on GitHub Actions
 - HTML structure validation
 
 ## Accessibility review

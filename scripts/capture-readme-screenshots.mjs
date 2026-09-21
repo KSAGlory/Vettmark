@@ -7,11 +7,11 @@ const scriptsDirectory = dirname(fileURLToPath(import.meta.url));
 const projectRoot = resolve(scriptsDirectory, "..");
 const outputDirectory = resolve(projectRoot, "assets", "screenshots");
 const applicationUrl = process.env.SCREENSHOT_URL
-  ?? "https://ksaglory.github.io/KSA-Repository-Health/";
+  ?? "https://ksaglory.github.io/Vettmark/";
 
 await mkdir(outputDirectory, { recursive: true });
 
-const browser = await chromium.launch({ headless: true });
+const browser = await chromium.launch({ channel: "chrome", headless: true });
 const context = await browser.newContext({
   colorScheme: "light",
   deviceScaleFactor: 1,
@@ -27,7 +27,7 @@ try {
     path: resolve(outputDirectory, "home-light.png")
   });
 
-  await page.locator("#repository-input").fill("KSAGlory/KSA-Repository-Health");
+  await page.locator("#repository-input").fill("KSAGlory/Vettmark");
   await page.locator("#repository-form button[type='submit']").click();
   await page.locator("#connection-result").waitFor({ state: "visible", timeout: 30000 });
 

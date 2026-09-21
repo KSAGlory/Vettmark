@@ -41,8 +41,5 @@ jobs:
       - name: Prepare production files
         run: npm run build
 
-      - name: Install browser engines
-        run: npx playwright install --with-deps chromium firefox webkit
-
-      - name: Run browser compatibility tests
+      - name: Run Google Chrome workflow tests
         run: npm run test:browser

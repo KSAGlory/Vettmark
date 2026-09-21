@@ -1,23 +1,23 @@
-# KSA Repository Health
+# Vettmark
 
-[![Quality](https://github.com/KSAGlory/KSA-Repository-Health/actions/workflows/quality.yml/badge.svg)](https://github.com/KSAGlory/KSA-Repository-Health/actions/workflows/quality.yml)
-[![GitHub Pages](https://github.com/KSAGlory/KSA-Repository-Health/actions/workflows/pages.yml/badge.svg)](https://github.com/KSAGlory/KSA-Repository-Health/actions/workflows/pages.yml)
+[![Quality](https://github.com/KSAGlory/Vettmark/actions/workflows/quality.yml/badge.svg)](https://github.com/KSAGlory/Vettmark/actions/workflows/quality.yml)
+[![GitHub Pages](https://github.com/KSAGlory/Vettmark/actions/workflows/pages.yml/badge.svg)](https://github.com/KSAGlory/Vettmark/actions/workflows/pages.yml)
 
 Review the public-facing readiness of a GitHub repository through clear, read-only checks.
 
-[Open KSA Repository Health](https://ksaglory.github.io/KSA-Repository-Health/)
+[Open Vettmark](https://ksaglory.github.io/Vettmark/)
 
-![KSA Repository Health home screen](assets/screenshots/home-light.png)
+![Vettmark home screen](assets/screenshots/home-light.png)
 
 ## Overview
 
-KSA Repository Health helps developers prepare a public repository for users, contributors, employers, and clients. Enter a GitHub repository URL or `owner/repository` value to receive a 100-point readiness score, category details, detected strengths, and prioritized recommendations.
+Vettmark helps developers prepare a public repository for users, contributors, employers, and clients. Enter a GitHub repository URL or `owner/repository` value to receive a 100-point readiness score, category details, detected strengths, and prioritized recommendations.
 
 The report uses public metadata from the official GitHub REST API. It is advisory and does not replace source-code review, security testing, or legal guidance.
 
 ## Report
 
-![KSA Repository Health report in dark mode](assets/screenshots/report-dark.png)
+![Vettmark report in dark mode](assets/screenshots/report-dark.png)
 
 Each review checks:
 
@@ -40,7 +40,7 @@ A standard review uses no more than six read-only API requests. If required evid
 
 ## Privacy and security
 
-KSA Repository Health is a static GitHub Pages application with no application backend.
+Vettmark is a static GitHub Pages application with no application backend.
 
 - No account or sign-in
 - No personal access token
@@ -78,7 +78,7 @@ Run `npm run screenshots` to refresh the README images from the deployed applica
 ## Quality
 
 - 37 unit and integration tests
-- Automated Chromium, Firefox, and WebKit workflow tests
+- Automated Google Chrome workflow tests
 - WCAG 2.2 A and AA automated checks in light and dark modes
 - Keyboard, responsive layout, reduced-motion, and error-state reviews
 - Zero known dependency vulnerabilities at publication

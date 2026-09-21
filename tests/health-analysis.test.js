@@ -8,7 +8,7 @@ const now = new Date("2026-09-05T12:00:00Z");
 function healthData(overrides = {}) {
   return {
     repository: {
-      fullName: "KSAGlory/KSA-Repository-Health",
+      fullName: "KSAGlory/Vettmark",
       description: "Professional repository review",
       homepage: "https://example.com",
       topics: ["github", "repository", "health"],

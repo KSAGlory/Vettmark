@@ -6,7 +6,7 @@ import { fileURLToPath } from "node:url";
 
 const scriptsDirectory = dirname(fileURLToPath(import.meta.url));
 const projectRoot = resolve(scriptsDirectory, "..");
-const port = Number.parseInt(process.env.KSA_REPOSITORY_HEALTH_PORT || "4173", 10);
+const port = Number.parseInt(process.env.VETTMARK_PORT || "4173", 10);
 
 const contentTypes = new Map([
   [".css", "text/css; charset=utf-8"],
@@ -78,5 +78,5 @@ createServer(async (request, response) => {
     sendText(response, 404, "Not found");
   }
 }).listen(port, "127.0.0.1", () => {
-  process.stdout.write(`KSA Repository Health is available at http://127.0.0.1:${port}\n`);
+  process.stdout.write(`Vettmark is available at http://127.0.0.1:${port}\n`);
 });

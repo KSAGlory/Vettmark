@@ -2,13 +2,13 @@
 
 ## Current project status
 
-KSA Repository Health is publicly available as a static GitHub Pages application. This document defines the privacy boundary of the published service.
+Vettmark is publicly available as a static GitHub Pages application. This document defines the privacy boundary of the published service.
 
 ## Information the application uses
 
 The user provides a public GitHub repository URL or an `owner/repository` value. The browser sends the normalized repository reference directly to the official GitHub REST API to retrieve the public information required for the report.
 
-## Information KSA Repository Health does not collect
+## Information Vettmark does not collect
 
 The application does not collect or request:
 
@@ -23,7 +23,7 @@ The application does not collect or request:
 
 ## Storage
 
-KSA Repository Health does not operate an application backend or database. Repository references and results remain in browser memory for the current page session and are not intentionally stored by the application.
+Vettmark does not operate an application backend or database. Repository references and results remain in browser memory for the current page session and are not intentionally stored by the application.
 
 ## Cookies and tracking
 
@@ -36,7 +36,7 @@ The application uses:
 - GitHub Pages to deliver the static website
 - The GitHub REST API to retrieve public repository information
 
-GitHub may process network and request information according to its own terms and privacy statement. KSA Repository Health does not control GitHub's independent processing.
+GitHub may process network and request information according to its own terms and privacy statement. Vettmark does not control GitHub's independent processing.
 
 ## Future changes
 

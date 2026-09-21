@@ -2,7 +2,7 @@
 
 ## Project status
 
-KSA Repository Health is publicly available as a static GitHub Pages application. Security reports concerning the repository or published service are welcome.
+Vettmark is publicly available as a static GitHub Pages application. Security reports concerning the repository or published service are welcome.
 
 ## Reporting a vulnerability
 
@@ -30,7 +30,7 @@ The application is required to:
 - Avoid analytics, cookies, tracking, and persistent search storage
 - Use a restrictive Content Security Policy
 
-KSA Repository Health does not scan source code for vulnerabilities and must never present its repository-readiness result as a security certification.
+Vettmark does not scan source code for vulnerabilities and must never present its repository-readiness result as a security certification.
 
 ## Responsible disclosure
 

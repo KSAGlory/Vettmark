@@ -7,25 +7,25 @@ import {
 } from "../src/repository-reference.js";
 
 test("normalizes owner and repository shorthand", () => {
-  assert.deepEqual(normalizeRepositoryReference("  KSAGlory/KSA-Repository-Health  "), {
+  assert.deepEqual(normalizeRepositoryReference("  KSAGlory/Vettmark  "), {
     owner: "KSAGlory",
-    repository: "KSA-Repository-Health",
-    fullName: "KSAGlory/KSA-Repository-Health",
-    githubUrl: "https://github.com/KSAGlory/KSA-Repository-Health"
+    repository: "Vettmark",
+    fullName: "KSAGlory/Vettmark",
+    githubUrl: "https://github.com/KSAGlory/Vettmark"
   });
 });
 
 test("normalizes a standard HTTPS GitHub URL", () => {
   const reference = normalizeRepositoryReference(
-    "https://github.com/KSAGlory/KSA-Repository-Health/"
+    "https://github.com/KSAGlory/Vettmark/"
   );
 
-  assert.equal(reference.fullName, "KSAGlory/KSA-Repository-Health");
+  assert.equal(reference.fullName, "KSAGlory/Vettmark");
 });
 
 test("accepts a clone suffix and removes it", () => {
-  const reference = normalizeRepositoryReference("KSAGlory/KSA-Repository-Health.git");
-  assert.equal(reference.repository, "KSA-Repository-Health");
+  const reference = normalizeRepositoryReference("KSAGlory/Vettmark.git");
+  assert.equal(reference.repository, "Vettmark");
 });
 
 const invalidReferences = [

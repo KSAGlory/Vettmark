@@ -10,14 +10,14 @@ import {
 
 const reference = {
   owner: "KSAGlory",
-  repository: "KSA-Repository-Health"
+  repository: "Vettmark"
 };
 
 function repositoryPayload(overrides = {}) {
   return {
     id: 123,
-    full_name: "KSAGlory/KSA-Repository-Health",
-    name: "KSA-Repository-Health",
+    full_name: "KSAGlory/Vettmark",
+    name: "Vettmark",
     owner: { login: "KSAGlory" },
     description: "Repository readiness tool",
     default_branch: "main",
@@ -75,14 +75,14 @@ test("requests only the fixed GitHub API repository endpoint", async () => {
   const result = await client.getRepository(reference);
 
   assert.equal(capturedUrl.origin, githubApiConfiguration.origin);
-  assert.equal(capturedUrl.pathname, "/repos/KSAGlory/KSA-Repository-Health");
+  assert.equal(capturedUrl.pathname, "/repos/KSAGlory/Vettmark");
   assert.equal(capturedOptions.method, "GET");
   assert.equal(capturedOptions.credentials, "omit");
   assert.equal(
     capturedOptions.headers["X-GitHub-Api-Version"],
     githubApiConfiguration.version
   );
-  assert.equal(result.repository.fullName, "KSAGlory/KSA-Repository-Health");
+  assert.equal(result.repository.fullName, "KSAGlory/Vettmark");
   assert.equal(result.rateLimit.remaining, 59);
 });
 

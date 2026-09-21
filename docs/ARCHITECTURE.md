@@ -2,7 +2,7 @@
 
 ## Overview
 
-KSA Repository Health is a static browser application built with semantic HTML, modern CSS, and JavaScript modules. It has no production framework, server-side application, database, analytics service, or authentication system.
+Vettmark is a static browser application built with semantic HTML, modern CSS, and JavaScript modules. It has no production framework, server-side application, database, analytics service, or authentication system.
 
 The first production boundary is intentionally narrow:
 
@@ -87,11 +87,11 @@ Implements the approved pastel interface system with light, dark, desktop, mobil
 | `npm run dev` | Start the local development server |
 | `npm test` | Run the Node.js test suite |
 | `npm run check` | Validate JavaScript syntax and run all tests |
-| `npm run test:browser` | Run the primary workflow in Chromium, Firefox, and WebKit |
+| `npm run test:browser` | Run the primary workflow in Google Chrome |
 | `npm run build` | Prepare the static production files in `dist` |
 | `npm run screenshots` | Refresh the README images from an approved deployment |
 
-The application has no production package dependencies. Playwright is pinned as a development-only dependency for reproducible browser compatibility tests. The development server and build scripts use Node.js built-in modules.
+The application has no production package dependencies. Playwright is pinned as a development-only dependency for reproducible Google Chrome workflow tests. The development server and build scripts use Node.js built-in modules.
 
 ## Current boundary
 

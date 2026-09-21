@@ -2,7 +2,7 @@
 
 ## Before requesting help
 
-Please review the documentation in the [README](README.md) and confirm that the issue also occurs in the [published application](https://ksaglory.github.io/KSA-Repository-Health/) before requesting help.
+Please review the documentation in the [README](README.md) and confirm that the issue also occurs in the [published application](https://ksaglory.github.io/Vettmark/) before requesting help.
 
 ## Product questions and support
 
@@ -21,7 +21,7 @@ Do not report undisclosed vulnerabilities in a public issue. Follow the private 
 
 ## Scope
 
-Support covers KSA Repository Health itself. Questions about GitHub accounts, billing, repository access, or GitHub service availability should be directed to GitHub Support.
+Support covers Vettmark itself. Questions about GitHub accounts, billing, repository access, or GitHub service availability should be directed to GitHub Support.
 
 ## Author and community
 

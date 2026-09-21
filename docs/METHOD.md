@@ -1,6 +1,6 @@
 # Repository Readiness Method
 
-KSA Repository Health measures whether a public GitHub repository presents essential information clearly to users and potential contributors.
+Vettmark measures whether a public GitHub repository presents essential information clearly to users and potential contributors.
 
 ## What the score means
 

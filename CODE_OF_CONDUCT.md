@@ -2,7 +2,7 @@
 
 ## Our commitment
 
-We are committed to providing a welcoming, respectful, and harassment-free environment for everyone who participates in the KSA Repository Health project, regardless of experience, background, identity, or ability.
+We are committed to providing a welcoming, respectful, and harassment-free environment for everyone who participates in the Vettmark project, regardless of experience, background, identity, or ability.
 
 ## Expected behavior
 
