@@ -1,6 +1,6 @@
 {
   "name": "vettmark",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Review the public-facing readiness of a GitHub repository through clear, read-only checks.",
   "type": "module",
