@@ -101,13 +101,13 @@ See [Quality Review](docs/QUALITY.md) for scope and limitations.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing a change. Product ideas, reproducible bug reports, and clearly described accessibility improvements are welcome through GitHub Issues.
 
+## Author and Community
+
+- Author: **KSAGlory**
+- Community: [discord.gg/ksahub](https://discord.gg/ksahub)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Author and community
-
-- **Author:** KSAGlory
-- **Community:** [discord.gg/ksahub](https://discord.gg/ksahub)
 
 Copyright © 2026 KSAGlory
