@@ -20,7 +20,7 @@ We are committed to providing a welcoming, respectful, and harassment-free envir
 - Deliberate intimidation, stalking, or sustained disruption
 - Publishing private information without explicit permission
 - Spam, impersonation, or deceptive activity
-- Any conduct that would be inappropriate in a professional community
+- Any conduct that would be inappropriate in a professional project
 
 ## Enforcement
 
@@ -28,10 +28,10 @@ Project maintainers may edit, remove, or reject comments, commits, issues, pull 
 
 ## Reporting conduct concerns
 
-Report conduct concerns privately to **alexmtrfnn@gmail.com**. Include relevant links or screenshots when available, but do not share unrelated personal or confidential information.
+Use [GitHub's abuse-reporting form](https://support.github.com/contact/report-abuse) for harassment, threats, spam, or other violations on GitHub. Include relevant links and only the information needed to explain the concern. Do not post sensitive allegations or personal information in a public issue.
 
-Reports will be reviewed as privately and impartially as reasonably possible. Retaliation against anyone who reports a concern in good faith is not acceptable.
+GitHub reviews reports submitted through that form. Project maintainers may also moderate conduct visible in project discussions under the rules above. Retaliation against anyone who reports a concern in good faith is not acceptable.
 
 ## Scope
 
-This Code of Conduct applies in project spaces and when an individual is publicly representing the project or its community.
+This Code of Conduct applies in project spaces and when an individual is publicly representing the project.

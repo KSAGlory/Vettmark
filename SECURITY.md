@@ -1,37 +1,31 @@
-# Security Policy
+# Security policy
 
-## Project status
+## Supported version
 
-Vettmark is publicly available as a static GitHub Pages application. Security reports concerning the repository or published service are welcome.
+Security fixes target the latest official release. Include the affected version or commit when reporting a problem.
 
 ## Reporting a vulnerability
 
-Please report suspected vulnerabilities privately by emailing **alexmtrfnn@gmail.com**.
+Use [GitHub private vulnerability reporting](https://github.com/KSAGlory/Vettmark/security/advisories/new). Do not disclose an unreported vulnerability in a public issue or pull request.
 
-Include the following information when possible:
+Include:
 
-- A clear description of the issue
-- The affected page, file, or feature
-- Steps required to reproduce the behavior
+- The affected version or commit
+- A clear description of the problem
+- Minimal reproduction steps
 - The potential impact
-- Any suggested mitigation
+- A suggested fix, if you have one
 
-Do not include access tokens, passwords, private keys, personal data, or unrelated confidential information. Please do not open a public GitHub issue for an undisclosed vulnerability.
+Do not include passwords, tokens, private documents, or unrelated personal information. Use a non-confidential example whenever possible.
 
-## Security boundaries
+## Project-specific guidance
 
-The application is required to:
+Vettmark reads public repository metadata through GitHub's API. It does not request access tokens, access private repositories, or perform write operations. Reports about unsafe input handling, rendering, or unintended data exposure are in scope. A readiness score is not a security certification.
 
-- Request public repository information through documented GitHub REST API endpoints
-- Perform read-only requests
-- Reject arbitrary API hosts and unsupported repository references
-- Render API-provided values as text rather than executable markup
-- Operate without GitHub access tokens
-- Avoid analytics, cookies, tracking, and persistent search storage
-- Use a restrictive Content Security Policy
+The application must use the fixed GitHub API host, reject unsupported repository references, render API values as text, and maintain its Content Security Policy. It must not add tracking, cookies, or persistent search storage without a reviewed change to its documented behavior.
 
-Vettmark does not scan source code for vulnerabilities and must never present its repository-readiness result as a security certification.
+## Disclosure
 
-## Responsible disclosure
+Allow time for investigation and a fix before publishing technical details. The maintainer will coordinate disclosure through the private report.
 
-Please allow reasonable time to investigate and correct a confirmed issue before publishing details. Reports made in good faith are appreciated.
+For installation help, usage questions, and ordinary bug reports, use [GitHub Issues](https://github.com/KSAGlory/Vettmark/issues).

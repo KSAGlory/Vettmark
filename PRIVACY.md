@@ -44,4 +44,4 @@ Any feature that requires authentication, server-side processing, persistent sto
 
 ## Contact
 
-Privacy questions may be sent to **alexmtrfnn@gmail.com**. Do not include passwords, access tokens, private keys, or other sensitive information.
+Ask general privacy questions through [GitHub Issues](https://github.com/KSAGlory/Vettmark/issues). Do not include personal data or confidential files. Report suspected vulnerabilities privately using [SECURITY.md](SECURITY.md).

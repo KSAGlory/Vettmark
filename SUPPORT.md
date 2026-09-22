@@ -2,23 +2,29 @@
 
 ## Before requesting help
 
-Please review the documentation in the [README](README.md) and confirm that the issue also occurs in the [published application](https://ksaglory.github.io/Vettmark/) before requesting help.
+Check the README and try the current published application. Search existing issues before opening a new report.
 
-## Product questions and support
+## Questions and bug reports
 
-- Email: **alexmtrfnn@gmail.com**
-- Community: [discord.gg/ksahub](https://discord.gg/ksahub)
+Use [GitHub Issues](https://github.com/KSAGlory/Vettmark/issues) for installation help, usage questions, and reproducible problems. Search existing issues first and include:
 
-When requesting help, include the repository URL you were checking, the browser and operating system you used, what you expected, and what happened. Never include passwords, GitHub access tokens, private keys, or confidential repository information.
+- The application or plugin version, or the commit you tested
+- Your operating system and version
+- The public repository URL you checked and your browser version
+- Steps to reproduce the problem
+- What you expected and what happened instead
+- Relevant screenshots or logs with private information removed
 
-## Bugs and feature requests
+## Feature requests
 
-Use the repository's issue forms for reproducible product problems and focused feature proposals. Search existing issues first to avoid duplicates.
+Describe the problem you want to solve and how the proposed change would help. Keep each request focused on one improvement.
+
+Support covers Vettmark itself. GitHub account, billing, and repository-access questions belong with GitHub Support.
+
+## Privacy
+
+Do not upload passwords, tokens, private documents, confidential paths, or unrelated personal information. Use a small, non-confidential example when possible.
 
 ## Security reports
 
-Do not report undisclosed vulnerabilities in a public issue. Follow the private reporting instructions in [SECURITY.md](SECURITY.md).
-
-## Scope
-
-Support covers Vettmark itself. Questions about GitHub accounts, billing, repository access, or GitHub service availability should be directed to GitHub Support.
+Do not post undisclosed vulnerabilities in public issues. Follow [SECURITY.md](SECURITY.md) for private reporting.
