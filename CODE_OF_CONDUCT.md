@@ -35,8 +35,3 @@ Reports will be reviewed as privately and impartially as reasonably possible. Re
 ## Scope
 
 This Code of Conduct applies in project spaces and when an individual is publicly representing the project or its community.
-
-## Author and community
-
-- **Author:** KSAGlory
-- **Community:** [discord.gg/ksahub](https://discord.gg/ksahub)

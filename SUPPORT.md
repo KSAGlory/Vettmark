@@ -22,8 +22,3 @@ Do not report undisclosed vulnerabilities in a public issue. Follow the private 
 ## Scope
 
 Support covers Vettmark itself. Questions about GitHub accounts, billing, repository access, or GitHub service availability should be directed to GitHub Support.
-
-## Author and community
-
-- **Author:** KSAGlory
-- **Community:** [discord.gg/ksahub](https://discord.gg/ksahub)

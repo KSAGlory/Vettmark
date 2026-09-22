@@ -45,8 +45,3 @@ Any feature that requires authentication, server-side processing, persistent sto
 ## Contact
 
 Privacy questions may be sent to **alexmtrfnn@gmail.com**. Do not include passwords, access tokens, private keys, or other sensitive information.
-
-## Author and community
-
-- **Author:** KSAGlory
-- **Community:** [discord.gg/ksahub](https://discord.gg/ksahub)

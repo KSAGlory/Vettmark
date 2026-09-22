@@ -35,8 +35,3 @@ Vettmark does not scan source code for vulnerabilities and must never present it
 ## Responsible disclosure
 
 Please allow reasonable time to investigate and correct a confirmed issue before publishing details. Reports made in good faith are appreciated.
-
-## Author and community
-
-- **Author:** KSAGlory
-- **Community:** [discord.gg/ksahub](https://discord.gg/ksahub)

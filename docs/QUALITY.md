@@ -7,7 +7,7 @@ Vettmark is tested as a static, read-only browser application. The quality check
 - JavaScript syntax validation
 - 37 unit and integration tests for input handling, GitHub API behavior, scoring, incomplete reports, timeouts, cancellation, and rate limits
 - Production build validation
-- Dependency audit with no known vulnerabilities
+- Dependency audit for known vulnerabilities
 - End-to-end workflow tests in Google Chrome on GitHub Actions
 - HTML structure validation
 
@@ -24,7 +24,7 @@ Vettmark is tested as a static, read-only browser application. The quality check
 - 200 percent zoom-equivalent layout review
 - 320-pixel narrow layout review
 
-The automated accessibility scan reports no detected WCAG A or AA violations in the tested primary workflow.
+The recorded accessibility review reported no detected WCAG A or AA violations in the tested primary workflow. This result describes that review, not every future version or interaction.
 
 ## Security review
 
@@ -37,15 +37,14 @@ The automated accessibility scan reports no detected WCAG A or AA violations in 
 - No cookies, analytics, tracking, application backend, or persistent browser storage
 - No credentials, private keys, tokens, or local filesystem paths are tracked in the repository
 
-## Performance review
+## Recorded performance review
 
 The local production profile received scores of 100 for Performance, Accessibility, and Best Practices in Lighthouse. The application loads no third-party scripts, makes no API request until the user submits a repository, and uses no production dependencies.
 
 ## Scope
 
-The review confirms the implemented public repository workflow and the deployed GitHub Pages application. It does not certify GitHub availability, repository content, application security, or legal compliance.
+The manual accessibility and Lighthouse results above are historical review results. This document does not include the original report artifacts, browser versions, or run dates needed to reproduce those results exactly. Future reviews should record those details alongside the commit tested.
 
-## Author and community
+Automated results are available in the [Quality workflow](https://github.com/KSAGlory/Vettmark/actions/workflows/quality.yml). A [successful run for commit d6dc255](https://github.com/KSAGlory/Vettmark/actions/runs/35732461356) was verified during the documentation review on 22 September 2026. That workflow runs the dependency audit, source checks, tests, build, and Chrome workflow tests; it does not establish every manual or Lighthouse claim above.
 
-- **Author:** KSAGlory
-- **Community:** [discord.gg/ksahub](https://discord.gg/ksahub)
+These checks do not certify GitHub availability, repository content, application security, or legal compliance.

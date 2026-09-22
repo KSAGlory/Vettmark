@@ -2,9 +2,9 @@
 
 Thank you for your interest in Vettmark.
 
-## Current stage
+## Proposing a change
 
-The application, repository analysis, automated quality checks, and public deployment are complete. Proposed changes must preserve the documented product, privacy, security, and accessibility boundaries.
+Proposed changes should preserve the documented product, privacy, security, and accessibility boundaries.
 
 Before beginning substantial work, open a focused issue and wait for confirmation that the proposal fits the approved scope. This helps prevent duplicated effort and protects the application's privacy and read-only guarantees.
 
@@ -29,16 +29,31 @@ Before beginning substantial work, open a focused issue and wait for confirmatio
 
 ## Development setup
 
-Vettmark has no production dependencies. Node.js 22 or later is required. Playwright is a development-only dependency used for browser compatibility testing.
+Vettmark has no production dependencies. Node.js 22 or later is required. Playwright is a development dependency used for browser testing. The browser tests and screenshot script use an installed Google Chrome browser.
 
-```text
+Install the pinned development dependencies:
+
+```sh
+npm ci
+```
+
+Start the local application:
+
+```sh
 npm run dev
-npm test
+```
+
+Use a separate terminal to run validation:
+
+```sh
 npm run check
 npm run test:browser
 npm run build
-npm run screenshots
 ```
+
+`npm run check` includes the unit tests. The browser suite starts its own local server or reuses one already running on port 4173.
+
+Run `npm run screenshots` only when refreshing the README images. It captures the deployed application and overwrites the tracked screenshots. Set `SCREENSHOT_URL` to capture a different deployment.
 
 The development server listens on `127.0.0.1` and uses port `4173` by default. Set `VETTMARK_PORT` when a different local port is required.
 
@@ -49,8 +64,3 @@ All participation must follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 ## Security
 
 Do not open a public issue for an undisclosed vulnerability. Follow [SECURITY.md](SECURITY.md).
-
-## Author and community
-
-- **Author:** KSAGlory
-- **Community:** [discord.gg/ksahub](https://discord.gg/ksahub)

@@ -96,8 +96,3 @@ The application has no production package dependencies. Playwright is pinned as 
 ## Current boundary
 
 The application reviews public repository presentation and maintenance evidence. It does not inspect source code, authenticate users, access private repositories, determine legal compliance, or perform security testing.
-
-## Author and community
-
-- **Author:** KSAGlory
-- **Community:** [discord.gg/ksahub](https://discord.gg/ksahub)

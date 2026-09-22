@@ -75,8 +75,3 @@ Recommendations are ordered by practical impact. Security reporting, project doc
 ## Data source
 
 The application uses documented, read-only endpoints from the official [GitHub REST API](https://docs.github.com/en/rest). A normal review uses no more than six requests. It does not request an access token or perform write operations.
-
-## Author and community
-
-- **Author:** KSAGlory
-- **Community:** [discord.gg/ksahub](https://discord.gg/ksahub)
